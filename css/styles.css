@@ -1,3 +1,32 @@
 body {
-  background-color: lightblue;
+  background: url("../images/tweed.png") repeat;
+  color: azure;
+  font-family: 'Advent Pro', sans-serif;
+}
+.header {
+  color: black;
+}
+.row {
+  width:100%;
+}
+h1 {
+  font-size: 2em;
+}
+img {
+  margin:0 auto;
+}
+.menu {
+  margin-top: 5%;
+}
+.btn-flat {
+  color: black;
+}
+.btn-flat:hover {
+  color: crimson;
+}
+a {
+  color:black;
+}
+a:hover {
+  color:crimson;
 }
