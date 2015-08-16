@@ -2,6 +2,7 @@ body {
   background: url("../images/tweed.png") repeat;
   color: azure;
   font-family: 'Advent Pro', sans-serif;
+  font-weight: thin;
 }
 .header {
   color: black;
