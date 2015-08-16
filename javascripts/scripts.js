@@ -10,7 +10,7 @@ $(document).ready(function(){
   }
   $('.parallax').parallax();
   $('.slider').slider({full_width: true});
-  $('.btn-flat').on('touchstop', function(){
+  $('.btn-flat').on('touchend', function(){
       $('#dropdown1').css({display:'none'});
   });
 });
