@@ -5,7 +5,7 @@ body {
   font-weight: thin;
 }
 .header {
-  color: black;
+  color: rgb(69, 66, 67);
 }
 .row {
   width:100%;
@@ -26,13 +26,19 @@ img {
   color: black;
 }
 .btn-flat:hover {
-  color: crimson;
+  color: #26a69a;
 }
 a {
   color:black;
 }
 a:hover {
-  color:crimson;
+  color:#26a69a;
+}
+.dropdown-content li>a {
+  color:black;
+}
+.dropdown-content li>a:hover {
+  color:#26a69a;
 }
 .slider .slides {
   background-color: rgb(69, 66, 67);
@@ -71,4 +77,10 @@ footer.page-footer {
 }
 .section {
   background-color: gainsboro;
+}
+.social>a>img:hover {
+  background-color: #26a69a;
+}
+.social>a>img {
+  border-radius:10px;
 }
