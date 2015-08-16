@@ -1,5 +1,5 @@
 body {
-  background: url("../images/tweed.png") repeat;
+  /*background-color: #ee6e73;*/
   color: azure;
   font-family: 'Advent Pro', sans-serif;
   font-weight: thin;
@@ -12,6 +12,9 @@ body {
 }
 h1 {
   font-size: 2em;
+}
+h2 {
+  font-weight: 200;
 }
 img {
   margin:0 auto;
@@ -46,5 +49,26 @@ a:hover {
   top: 75%;
   text-shadow: -2px 0 black, 0 1px black, 0px 0 black, 0 -1px black;
   font-weight: normal;
-
+}
+footer.page-footer {
+  margin-top:0%;
+  padding-top:10px;
+}
+.social {
+  display: inline;
+}
+.social-list {
+  margin-bottom:0;;
+}
+.footer-copyright {
+  text-align: left;
+  font-size: .9em;
+  height:20px;
+}
+.container {
+  margin: 0 0 0 20px;
+  font-size: .8em;
+}
+.section {
+  background-color: gainsboro;
 }
