@@ -31,3 +31,20 @@ a {
 a:hover {
   color:crimson;
 }
+.slider .slides {
+  background-color: rgb(69, 66, 67);
+}
+.fullscreen {
+  background-color: black;
+}
+.slider .slides li img{
+  background: no-repeat;
+  background-size:contain;
+  background-position: center;
+}
+.slider .slides li .caption {
+  top: 75%;
+  text-shadow: -2px 0 black, 0 1px black, 0px 0 black, 0 -1px black;
+  font-weight: normal;
+
+}
