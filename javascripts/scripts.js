@@ -11,16 +11,12 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.slider').slider({full_width: true});
   if (isiPhone()){
-    $('.btn-flat').hover(function() {
-    	var $parent = jQuery(this);
-    	var $dropdown = $parent.children('ul');
-
-    	$dropdown.show(0,function() {
-    		$parent.mouseleave(function() {
-    			var $this = jQuery(this);
-    			$this.children('ul').fadeOut(10);
-    		});
-    	});
+    $('.btn-flat').attr('data-hover', 'false');
+    $('.btn-flat').on('mouseover', function(){
+      $('#dropdown1').css({display:'none'});
+    });
+    $('.btn-flat').on('mouseover', function(){
+      $('#dropdown3').css({display:'none'});
     });
   }
 });
