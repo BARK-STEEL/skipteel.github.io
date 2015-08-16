@@ -10,13 +10,13 @@ $(document).ready(function(){
   }
   $('.parallax').parallax();
   $('.slider').slider({full_width: true});
-  if (isiPhone()){
-    $('.btn-flat').attr('data-hover', 'false');
-    $('.btn-flat').on('mouseover', function(){
-      $('#dropdown1').css({display:'none'});
-    });
-    $('.btn-flat').on('mouseover', function(){
-      $('#dropdown3').css({display:'none'});
-    });
-  }
+  // if (isiPhone()){
+  //   $('.btn-flat').attr('data-hover', 'false');
+  //   $('.btn-flat').on('mouseover', function(){
+  //     $('#dropdown1').css({display:'none'});
+  //   });
+  //   $('.btn-flat').on('mouseover', function(){
+  //     $('#dropdown3').css({display:'none'});
+  //   });
+  // }
 });
