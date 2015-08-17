@@ -72,8 +72,9 @@ footer.page-footer {
   height:20px;
 }
 .container {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 50px;
   font-size: .8em;
+  width:90%;
 }
 .section {
   background-color: gainsboro;
@@ -83,4 +84,7 @@ footer.page-footer {
 }
 .social>a>img {
   border-radius:15px;
+}
+.credit {
+  float:right;
 }
