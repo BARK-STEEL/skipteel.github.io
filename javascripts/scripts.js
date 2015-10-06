@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $('.modal-trigger').leanModal();
   function isiPhone(){
       return (
           //Detect iPhone
