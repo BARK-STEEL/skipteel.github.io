@@ -33,9 +33,13 @@ element.style {
   font-size:.6em;
 }
 #modal1 {
+  /*top:5% !important;
+  z-index: 1000;
+  transform: scaleX(1);*/
   width:55.3%;
   max-height: 90%;
   height:90%;
+  bottom: 10%;
 }
 #modal2 {
   width: 31%;
