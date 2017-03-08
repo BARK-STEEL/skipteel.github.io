@@ -93,7 +93,7 @@ footer.page-footer {
   display: inline;
 }
 .social-list {
-  margin-bottom:0;;
+  margin-bottom:0;
 }
 .footer-copyright {
   text-align: left;
@@ -101,7 +101,7 @@ footer.page-footer {
   height:20px;
 }
 .container {
-  margin: 0 0 0 50px;
+  margin: 0 auto;
   font-size: .8em;
   width:90%;
 }
@@ -116,4 +116,17 @@ footer.page-footer {
 }
 .credit {
   float:right;
+}
+
+@media (max-width: 500px) {
+  .parallax-container {
+    height: 300px;
+  }
+  .social-list {
+    text-align: center;
+  }
+  .social>a>img {
+    height: 40px;
+    width: 40px;
+  }
 }
