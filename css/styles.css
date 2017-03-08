@@ -41,10 +41,12 @@ element.style {
 #modal2 {
   width: 400px;
 }
+#pdf {
+  height: 100%
+}
 
 #modal2 img {
   width: 100%;
-
 }
 #oldlady {
   color:rgba(255,255,255,0.8);
@@ -130,5 +132,17 @@ footer.page-footer {
   .social>a>img {
     height: 40px;
     width: 40px;
+  }
+  #modal1 {
+    width:90%;
+    max-height: 75%;
+    height:75%;
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+  .parallax-container {
+    height: 130px;
   }
 }
